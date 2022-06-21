@@ -1,0 +1,45 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+:root {
+    --primary-color : #30356e ;
+    --secondary-color : yellow ;
+    --tertiary-color : rgba(255, 255, 255, 0.705)  ;
+    --tetary-color : #f8b020  ;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    width: 100% ;
+    height: 100vh ;
+    display: flex ;
+    align-items: center ;
+    justify-content: space-evenly ;
+}
+
+.card-1 {
+    display: flex ;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-evenly ;
+}
+.card-1 .textcol {
+    color: var(--tertiary-color);
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.counter {
+    color: var(--tetary-color);
+    font-family: monospace ;
+    font-size: 5rem;
+    margin: 1rem 0;
+}
